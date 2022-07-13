@@ -1,0 +1,17 @@
+server:
+  port: 8070
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            clientId: 380406904202969
+            clientSecret: c0d6ddef5ea359c6747c6ead9eec8f1c
+          google:
+            clientId: 712056738368-vdgcumqhctjgnspbt1vgr6ajjdsiuvqg.apps.googleusercontent.com
+            clientSecret: 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
+          github:
+            clientId: Iv1.c9dafd6635a9e45f
+            clientSecret: 011b57f59edb8fa9038a4f0e66bde8382306e151
